@@ -11,6 +11,47 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-yaml',
+    {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      path: `${__dirname}/content`,
+      name: 'posts',
+    },
+  },
+  {
+resolve: 'gatsby-source-filesystem',
+options: {
+  name: 'images',
+  path: `${__dirname}/src/assets/`,
+},
+},
+'gatsby-transformer-sharp',
+  'gatsby-plugin-sharp',
+  {
+    resolve: 'gatsby-transformer-remark',
+    options: {
+      plugins: [
+        {
+          resolve: 'gatsby-remark-images',
+          options: {
+            maxWidth: 1080,
+            linkImagesToOriginal: true,
+          },
+        },
+        {
+          resolve: 'gatsby-remark-responsive-iframe',
+          options: {
+            wrapperStyle: 'margin-bottom: 1.0725rem',
+          },
+        },
+        'gatsby-remark-prismjs',
+        'gatsby-remark-copy-linked-files',
+        'gatsby-remark-smartypants',
+        'gatsby-remark-autolink-headers',
+      ],
+    },
+  },
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {

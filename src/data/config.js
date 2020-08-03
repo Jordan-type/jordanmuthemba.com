@@ -1,9 +1,9 @@
 module.exports = {
-  defaultTitle: 'Aaron van den Berg - Portfolio website',
+  defaultTitle: 'Jordan Muthemba - Portfolio website',
   logo: 'https://aaronvandenberg.nl/favicon/favicon-512.png',
-  author: 'Aaron van den Berg',
+  author: 'Jordan Muthemba',
   url: 'https://aaronvandenberg.nl/',
-  legalName: 'Aaron van den Berg',
+  legalName: 'Jordan Muthemba',
   defaultDescription: 'I’m Aaron van den Berg and I’m a student Web Developer at the HAN in Arnhem. Skilled in Javascript (ES6+), React, Node.JS, PHP, SQL & NoSQL.',
   socialLinks: {
     github: 'https://github.com/aaron5670',

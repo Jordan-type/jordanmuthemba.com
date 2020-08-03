@@ -65,3 +65,8 @@ module.exports = {EMAIL, EMAIL_PASSWORD, PORT, SESSION_SECRET, isHTTPS, privateK
 
 ### Preview
 ![Website Aaron van den Berg](https://github.com/aaron5670/aaronvandenberg.nl/blob/v2/screenshot.png?raw=true)
+
+
+ New minor version of npm available! 6.9.0 -> 6.14.7       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v6.14.7   │
+   │               Run npm install -g npm to update!

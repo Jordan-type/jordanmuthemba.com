@@ -10,21 +10,21 @@ export const Footer = () => (
     <Wrapper>
         <Flex as={Container}>
             <Details>
-                <h2>Aaron van den Berg</h2>
+                <h2>Jordan Muthemba</h2>
                 <span>
           © All rights are reserved | {new Date().getFullYear()} | Made with{' '}
                     <span aria-label="love" role="img">
             💖
           </span>{' '}
                     by{' '}
-                    <a href="https://aaronvandenberg.nl" rel="noopener noreferrer" target="_blank"
-                       title={'Aaron van den Berg'}>
-            Aaron van den Berg
+                    <a href="https://jordanmuthemba.com" rel="noopener noreferrer" target="_blank"
+                       title={'Jordan Muthemba'}>
+            Jordan Muthemba
           </a>
         </span>
             </Details>
             <Links>
-                <a href={'https://github.com/aaron5670'} target="_blank" rel="noopener noreferrer"
+                <a href={'https://github.com/Jordan-type'} target="_blank" rel="noopener noreferrer"
                    aria-label={`follow me on GitHub`}>
                     <img width="24" src={GitHubLogo} alt={'GitHub'}/>
                 </a>

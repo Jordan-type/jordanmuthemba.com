@@ -1,6 +1,6 @@
 import React from 'react';
 import {Layout, SEO} from '../components/common';
-import {Intro, Skills, Contact, Projects} from '../components/landing';
+import {Intro, Skills, Work,Services, Contact, Projects} from '../components/landing';
 import OnlineUsers from "../components/OnlineUsers";
 import {ToastContainer} from "react-toastify";
 import {receivedSocketMessages} from "../services/socket";
@@ -14,6 +14,8 @@ export default () => (
         <Intro/>
         <Projects/>
         <Skills/>
+        <Work/>
+        <Services/>
         <Contact/>
     </Layout>
 );
