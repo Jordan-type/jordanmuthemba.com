@@ -3,7 +3,7 @@ import {URL, PORT} from '../../../../../config';
 import {Form, withFormik, FastField, ErrorMessage} from 'formik'
 import Recaptcha from 'react-google-recaptcha'
 import * as Yup from 'yup'
-import {Button, Input} from 'components/common'
+import {CustomButton, Input} from 'components/common'
 import {recaptcha_key} from 'data/config'
 import {Error, Center, InputField} from './styles'
 
@@ -110,9 +110,9 @@ const ContactForm = ({
                 </InputField>
             )}
             <Center>
-                <Button secondary type="submit" disabled={isSubmitting}>
+                <CustomButton secondary type="submit" disabled={isSubmitting}>
                     Submit
-                </Button>
+                </CustomButton>
             </Center>
         </Form>
     )
