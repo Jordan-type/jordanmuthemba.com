@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {Container, Card} from 'components/common'
+import {Container, CardGit} from 'components/common'
 import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import {Wrapper, Grid, Item, Content, Stats} from './styles'
@@ -44,7 +44,7 @@ const IndexPage = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <Card>
+                        <CardGit>
                             <Content>
                                 <h4>{repo.name}</h4>
                                 <p>{repo.description}</p>
@@ -59,7 +59,7 @@ const IndexPage = () => {
                                     <span>{repo.forks}</span>
                                 </div>
                             </Stats>
-                        </Card>
+                        </CardGit>
                     </Item>
                 )
             })
@@ -81,7 +81,7 @@ const ErrorNotification = () => (
 export const Projects = () => {
     return (
         <Wrapper as={Container} id="projects">
-            <h2>Projects</h2>
+            <h2>Open Source Projects</h2>
             <Grid>
                 {IndexPage()}
             </Grid>

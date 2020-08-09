@@ -9,8 +9,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     'gatsby-transformer-yaml',
     {
     resolve: 'gatsby-source-filesystem',
@@ -27,7 +25,7 @@ options: {
 },
 },
 'gatsby-transformer-sharp',
-  'gatsby-plugin-sharp',
+'gatsby-plugin-sharp',
   {
     resolve: 'gatsby-transformer-remark',
     options: {
@@ -62,7 +60,7 @@ options: {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './static/favicon/favicon-512.png',
+        logo: './static/favicon/favicon-192x192.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -86,7 +84,7 @@ options: {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
-        icon: './static/favicon/favicon-512.png',
+        icon: './static/favicon/favicon-192x192.png',
       },
     },
     'gatsby-plugin-offline',

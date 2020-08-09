@@ -3,9 +3,9 @@ import { Project } from 'components/common'
 import { useStaticQuery, graphql } from 'gatsby'
 
 export default () => {
-  const { freelanceProjects } = useStaticQuery(graphql`
+  const { sideProjects } = useStaticQuery(graphql`
     query {
-      freelanceProjects: allFreelanceProjectsYaml {
+      sideProjects: allSideprojectsYaml {
         edges {
           node {
             id
@@ -24,5 +24,5 @@ export default () => {
       }
     }
   `)
-  return <Project title="Freelance Projects" projects={freelanceProjects} side />
+  return <Project title="Side Projects" projects={sideProjects} side />
 }

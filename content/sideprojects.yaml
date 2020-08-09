@@ -1,0 +1,12 @@
+- title: The light ideas
+  image: "../src/assets/images/side-projects/jordancom.png"
+  link: https://play.google.com/store/apps/details?id=com.smakosh.atchit
+  description: This is my personal portfolio website build with GatsbyJS and a small ExpressJS server.!
+- title: Ubricoin
+  image: "../src/assets/images/side-projects/jordancom.png"
+  link: https://ai-hashtags.com
+  description: This is my personal portfolio website build with GatsbyJS and a small ExpressJS server.
+- title: Soko Janja
+  image: "../src/assets/images/side-projects/jordancom.png"
+  link: https://github.com/smakosh/beafapp
+  description: This is my personal portfolio website build with GatsbyJS and a small ExpressJS server.!

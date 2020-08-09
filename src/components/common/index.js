@@ -5,8 +5,10 @@ export * from './Subtitle';
 export * from './Button';
 export * from './CustomButton'
 export * from './Card';
+export * from './CardGit';
 export * from './Input';
 export * from './SEO';
 export * from './More';
+export * from './Svg'
 export * from './Project';
 export * from './Repository';
