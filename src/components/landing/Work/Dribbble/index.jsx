@@ -27,7 +27,7 @@ export default () => {
   return (
     <Project
       icon={DribbbleIcon}
-      title="Shared on Dribbble"
+      title="Hackathons I've Participated"
       projects={shots}
       link="http://blog.thelightideas.co.ke/"
       color="#ea4c89"

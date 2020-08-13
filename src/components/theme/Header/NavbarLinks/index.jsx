@@ -18,7 +18,8 @@ const NavbarLinks = ({desktop}) => {
                 </>
                 :
                 <>
-                    <AnchorLink href="/about">About</AnchorLink>
+                    <Link to={'/'} replace>Home</Link>
+                    <Link to="/about"  activeClassName="current">About</Link>
                     <AnchorLink href="#projects">Projects</AnchorLink>
                     <AnchorLink href="#contact">Contact</AnchorLink>
                 </>

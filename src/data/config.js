@@ -4,21 +4,22 @@ module.exports = {
   author: 'Jordan Muthemba',
   url: 'https://aaronvandenberg.nl/',
   legalName: 'Jordan Muthemba',
-  defaultDescription: 'I’m Aaron van den Berg and I’m a student Web Developer at the HAN in Arnhem. Skilled in Javascript (ES6+), React, Node.JS, PHP, SQL & NoSQL.',
+  defaultDescription: 'Hello! I’m Jordan Muthemba also Known as Jordan Type, I’m a self-taught Full Stack JavaScript and Blockchain Developer.',
   socialLinks: {
-    github: 'https://github.com/aaron5670',
-    linkedin: 'https://www.linkedin.com/in/aaron-van-den-berg-a0406112a/',
+    github: 'https://github.com/Jordan-type',
+    linkedin: 'https://www.linkedin.com/in/jordan-muthemba/',
+    instagram: 'https://www.instagram.com/jordan_type/'
   },
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
-    facebook: 'aaron.vandenberg.50',
+    facebook: 'https://www.facebook.com/jordantypeizo.type',
   },
   address: {
-    country: 'The Netherlands',
+    country: 'Kenya',
   },
   contact: {
-    email: 'a.vdberg98@gmail.com',
+    email: 'jordanmuthemba25@gmail.com',
     phone: 'phone number',
   },
   foundingDate: '2020',

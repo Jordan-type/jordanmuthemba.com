@@ -3,12 +3,13 @@ export * from './Container';
 export * from './SmallerContainer';
 export * from './Subtitle';
 export * from './Button';
-export * from './CustomButton'
+export * from './CustomButton';
 export * from './Card';
 export * from './CardGit';
 export * from './Input';
 export * from './SEO';
 export * from './More';
-export * from './Svg'
+export * from './Svg';
+export * from './PageTitle';
 export * from './Project';
 export * from './Repository';

@@ -1,12 +1,16 @@
-- title: Planets UI
+- title: Ubricoin
+  image: '../src/assets/images/Ubricoin.png'
+  link: http://blog.thelightideas.co.ke/
+  description: Part of Celo Camp eight weeks acceleration program for building financial applications with Blockchain Techology
+- title: Global Gateway
+  image: '../src/assets/images/GlobalGateway.jpg'
+  link: http://blog.thelightideas.co.ke/
+  description: Part of Celo Camp eight weeks acceleration program for building financial applications with Blockchain Techology
+- title: Andela-#BuildForSDG Cohort 1
   image: '../src/assets/images/jordancom.png'
   link: http://blog.thelightideas.co.ke/
-  description: A user interface that received an award on Uplabs
-- title: Post UI
+  description: Be market-ready. Build experience by innovating on problems that matter.
+- title: Andela-#BuildForSDG Cohort 2
   image: '../src/assets/images/jordancom.png'
   link: http://blog.thelightideas.co.ke/
-  description: Part of a daily UI challenge I was doing
-- title: Futuristic Todo
-  image: '../src/assets/images/jordancom.png'
-  link: http://blog.thelightideas.co.ke/
-  description: Testing cssGrid for the first time so I designed this
+  description: Be market-ready. Build experience by innovating on problems that matter.
