@@ -1,8 +1,8 @@
 /*
  * HOST & SERVERNAME SETTINGS
  */
-export const HOST_NAME = 'aaronvandenberg.nl';
-export const URL = 'https://aaronvandenberg.nl';
+export const HOST_NAME = 'jordanmuthemba-com.vercel.app';
+export const URL = 'https://jordanmuthemba-com.vercel.app/';
 export const PORT = 3005;
 
 /*
