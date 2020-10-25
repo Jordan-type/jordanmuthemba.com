@@ -23,5 +23,5 @@ module.exports = {
     phone: '+254 712 380 880',
   },
   foundingDate: '2020',
-  recaptcha_key: '6LffNtsZAAAAAG3S3LdCNd96khkqkiAjzqAospMz',
+  recaptcha_key: '6LffNtsZAAAAAEbu-WI6pJrfEjymoRNFE6T5aD7V',
 };
