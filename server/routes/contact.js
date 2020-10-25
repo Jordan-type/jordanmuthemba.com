@@ -33,18 +33,18 @@ contact.post('/send', (req, res) => {
 
     if (name && email && message && recaptcha) {
         const body = `
-            <b>Naam:</b> ${name}<br/>
+            <b>Name:</b> ${name}<br/>
             <b>Email:</b> ${email}<br/><br/>
-            <b>Bericht:</b><br/>
+            <b>Message:</b><br/>
             ${message}
             <br/>
             <br/>
-            <i>Verzonden vanaf <a href="https://aaronvandenberg.nl/">aaronvandenberg.nl</a></i>
+            <i>sent from <a href="https://jordanmuthemba-com.vercel.app/">jordanmuthemba-com.vercel.app</a></i>
         `;
 
-        sendEmail('Nieuwe email vanaf contactformulier 🔥', body);
+        sendEmail('New email from contact form 🔥', body);
         return res.json({
-            message: 'successfully send'
+            message: 'successfully sent'
         })
     } else return res.json({
         message: 'Something went wrong!'
